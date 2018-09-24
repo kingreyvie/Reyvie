@@ -28,6 +28,6 @@ Please <a href="" title="Reload this page" onclick="window.location.reload(false
 <p>See the error message at the bottom of this page for more&nbsp;information.</p>
 </div>
 </div>
-<div class="footer"><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><p class="text-muted"><code>Request from 54.80.223.157 via cp2002 cp2002, Varnish XID 52586875<br>Error: 404, Not Found at Thu, 20 Sep 2018 06:49:52 GMT</code></p>
+<div class="footer"><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><p class="text-muted"><code>Request from 54.198.116.144 via cp2002 cp2002, Varnish XID 104252957<br>Error: 404, Not Found at Mon, 24 Sep 2018 06:40:42 GMT</code></p>
 </div>
 </html>

@@ -9,70 +9,70 @@ angular.module('app.routes', [])
   $stateProvider
     
 
-      .state('page', {
+      .state('contactPage', {
     url: '/page1',
-    templateUrl: 'templates/page.html',
-    controller: 'pageCtrl'
+    templateUrl: 'templates/contactPage.html',
+    controller: 'contactPageCtrl'
   })
 
-  .state('page2', {
+  .state('bato', {
     url: '/page3',
-    templateUrl: 'templates/page2.html',
-    controller: 'page2Ctrl'
+    templateUrl: 'templates/bato.html',
+    controller: 'batoCtrl'
   })
 
-  .state('page3', {
+  .state('dickGordon', {
     url: '/page7',
-    templateUrl: 'templates/page3.html',
-    controller: 'page3Ctrl'
+    templateUrl: 'templates/dickGordon.html',
+    controller: 'dickGordonCtrl'
   })
 
-  .state('page4', {
+  .state('decastro', {
     url: '/page5',
-    templateUrl: 'templates/page4.html',
-    controller: 'page4Ctrl'
+    templateUrl: 'templates/decastro.html',
+    controller: 'decastroCtrl'
   })
 
-  .state('page5', {
+  .state('digong', {
     url: '/page6',
-    templateUrl: 'templates/page5.html',
-    controller: 'page5Ctrl'
+    templateUrl: 'templates/digong.html',
+    controller: 'digongCtrl'
   })
 
-  .state('page6', {
+  .state('trililing', {
     url: '/page8',
-    templateUrl: 'templates/page6.html',
-    controller: 'page6Ctrl'
+    templateUrl: 'templates/trililing.html',
+    controller: 'trililingCtrl'
   })
 
-  .state('page7', {
+  .state('miriam', {
     url: '/page9',
-    templateUrl: 'templates/page7.html',
-    controller: 'page7Ctrl'
+    templateUrl: 'templates/miriam.html',
+    controller: 'miriamCtrl'
   })
 
-  .state('page8', {
+  .state('manny', {
     url: '/page10',
-    templateUrl: 'templates/page8.html',
-    controller: 'page8Ctrl'
+    templateUrl: 'templates/manny.html',
+    controller: 'mannyCtrl'
   })
 
-  .state('page9', {
+  .state('larryGordon', {
     url: '/page11',
-    templateUrl: 'templates/page9.html',
-    controller: 'page9Ctrl'
+    templateUrl: 'templates/larryGordon.html',
+    controller: 'larryGordonCtrl'
   })
 
-  .state('page10', {
+  .state('titoSotto', {
     url: '/page12',
-    templateUrl: 'templates/page10.html',
-    controller: 'page10Ctrl'
+    templateUrl: 'templates/titoSotto.html',
+    controller: 'titoSottoCtrl'
   })
 
-  .state('page11', {
+  .state('leilaDelima', {
     url: '/page13',
-    templateUrl: 'templates/page11.html',
-    controller: 'page11Ctrl'
+    templateUrl: 'templates/leilaDelima.html',
+    controller: 'leilaDelimaCtrl'
   })
 
 $urlRouterProvider.otherwise('/page1')
